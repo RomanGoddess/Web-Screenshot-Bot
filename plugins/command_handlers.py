@@ -31,11 +31,11 @@ HOME = InlineKeyboardMarkup([
 async def start(_: Client, message: Message) -> None:
     LOGGER.debug(f"USED_CMD --> /start command >> @{message.from_user.username}")
     await message.reply_text(
-        f"<b>Hi {message.from_user.first_name} 👋\n"
-        "I can render website of a given link to either PDF or PNG/JPEG</b>",
+        f"<b>Hello {message.from_user.first_name} 👋,\n"
+        "I Can Render Website Of A Given Link To Either 𝗣𝗗𝗙 or 𝗣𝗡𝗚/𝗝𝗣𝗘𝗚</b>",
         quote=True,
         reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("❓ About", callback_data="about_cb")
+                InlineKeyboardButton("𝗔𝗕𝗢𝗨𝗧 🤔", callback_data="about_cb")
             ]
         ])
     )
