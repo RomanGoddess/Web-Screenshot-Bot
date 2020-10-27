@@ -45,14 +45,14 @@ async def start(_: Client, message: Message) -> None:
 async def feedback(_: Client, message: Message) -> None:
     LOGGER.debug(f"USED_CMD --> /about command >> @{message.from_user.username}")
     await message.reply_text(
-        text="This project is open ❤️ source",
+        text="**⭕️ My Name : 𝗪𝗘𝗕 𝗠𝗨𝗡𝗖𝗛 𝗕𝗢𝗧**\n\n**⭕️ Language :** `Python3`\n\n**⭕️ Library :** **Pyrogram Asyncio 0.16.1**\n\n**⭕️ Source Code : 👉** [Click Here](https://t.me/NoSourceCode)**",
         reply_markup=InlineKeyboardMarkup([
             [
-                InlineKeyboardButton("👨🏻‍🦯 Source", url="https://github.com/alenpaul2001/Web-Screenshot-Bot"),
-                InlineKeyboardButton("❓ Bug Report", url="https://github.com/alenpaul2001/Web-Screenshot-Bot/issues")],
+                InlineKeyboardButton("𝗖𝗥𝗘𝗔𝗧𝗢𝗥 🧕", url="https://t.me/Iggie"),
+                InlineKeyboardButton("𝗚𝗥𝗢𝗨𝗣 👥", url="https://t.me/LeechZone")],
             [InlineKeyboardButton(
-                "🌃 Profile Icon Credit",
-                url="https://www.goodfon.com/wallpaper/art-vector-background-illustration-minimalism-angga-tanta-12.html")]
+                "📳 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗔𝗡𝗗𝗥𝗢𝗜𝗗 𝗔𝗣𝗣𝗦 📳",
+                url="https://t.me/joinchat/AAAAAE-44AkxSyqIMj1tdQ")]
             ])
     )
 
